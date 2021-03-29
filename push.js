@@ -29,7 +29,7 @@ push.sendNotification(sub, 'Testing this');
 push.setVapidDetails('mailto:jseaman@pointpark.edu', vapidKeys.publickey, vapidKeys.privatekey);
 let sub = {
     endpoint:
-      'https://updates.push.services.mozilla.com/wpush/v2/gAAAAABgY…QTORhyqWe5qqmf5IlDO3BPeYn5KXPtels8f6at9YvkOurT-DDxqiITqDUwLE',
+      'https://updates.push.services.mozilla.com/wpush/v2/gAAAAABgYQTORhyqWe5qqmf5IlDO3BPeYn5KXPtels8f6at9YvkOurT-DDxqiITqDUwLE',
     expirationTime: null,
     keys: {
       p256dh:
