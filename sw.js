@@ -17,5 +17,5 @@ self.addEventListener('push', function(e) {
       ]
     };
     //e.waitUntil(self.registration.showNotification('Hello world!', options));
-    e.waitUntil(self.registration.showNotification('Hello Students!'));
+    //e.waitUntil(self.registration.showNotification('Hello Students!'));
   });
