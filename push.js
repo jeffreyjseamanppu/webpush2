@@ -9,7 +9,7 @@ let vapidKeys = {
 }
 
 //chrome browser
-/*
+
 push.setVapidDetails('mailto:jseaman@pointpark.edu', vapidKeys.publickey, vapidKeys.privatekey);
 let sub = {
     endpoint:
@@ -23,9 +23,10 @@ let sub = {
   };
 
 push.sendNotification(sub, 'Testing this');
-*/
+
 
 //firefox browser
+/*
 push.setVapidDetails('mailto:jseaman@pointpark.edu', vapidKeys.publickey, vapidKeys.privatekey);
 let sub = {
     endpoint:
@@ -39,3 +40,4 @@ let sub = {
   };
 
 push.sendNotification(sub, 'Testing this');
+*/
